@@ -15,7 +15,15 @@ h3 {
   text-align: center;
   margin: 0;
 }
-
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45px !important;
+    padding-top: 15px;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+}
 h1 {
   font-size: 84px;
 }
